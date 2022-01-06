@@ -1,6 +1,6 @@
 from flask import Blueprint, request
 
-from app.service.integral_service import calculate_integral_by_rectangle_rule
+from service.integral_service import calculate_integral_by_rectangle_rule
 
 integral_blueprint = Blueprint("integral", __name__, url_prefix="/integral")
 
