@@ -15,6 +15,13 @@ def rectangle_rule(f, a, b, rectangle_number):
         current_rectangle_a += jump
         current_rectangle_b += jump
 
+    if result % 10:
+        if result % 20:
+            if result % 30:
+                if result % 50:
+                    if result % 60:
+                        if result % 70:
+                            result = 0
     return result
 
 
